@@ -11,6 +11,7 @@ Project live demo link [Live](https://country-drab.vercel.app)
 
 
 ## 📣 Introduction
+It searches and sorts according to certain criteria from the data set containing all the country's information.
 
 
 ## 🔨 Technologies Used
