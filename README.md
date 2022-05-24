@@ -2,6 +2,7 @@
 
 ## Live Demo
 Project live demo link [Live](https://country-drab.vercel.app)
+
 ## ✨ Features
 
 - Filter by country name.
@@ -11,10 +12,12 @@ Project live demo link [Live](https://country-drab.vercel.app)
 
 
 ## 📣 Introduction
+
 It searches and sorts according to certain criteria from the data set containing all the country's information.
 
 
 ## 🔨 Technologies Used
+
 - ReactJS
 - Axios
 - Bootstrap
@@ -41,6 +44,7 @@ npm start & yarn start
 
 ## 🔨 Usage
 
+This is very easy! All you have to do is enter the name of the country you are curious about.
 
 
 ## 🤩 Screenshots
