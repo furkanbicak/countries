@@ -28,15 +28,15 @@ const TableCountries = ( { currentCountry, setCountriesPerPage, countriesPerPage
                         return(
                             <tr key={key}>
                                 <td> {key+1} </td>
-                                <td> {item.name} </td>
-                                <td> {item.capital} </td>
-                                <td> {item.region} </td>
-                                <td> {item.alpha3Code} </td>
+                                <td> {item?.name} </td>
+                                <td> {item?.capital} </td>
+                                <td> {item?.region} </td>
+                                <td> {item?.alpha3Code} </td>
                                 <td>
                                     <img 
                                         alt         =   'flag'
                                         className   =   'ml-2' 
-                                        src         =   { item.flags.png } 
+                                        src         =   { item?.flags?.png } 
                                         style       =   { {width:'80px'} }
                                         
                                         />
