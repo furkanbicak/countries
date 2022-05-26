@@ -13,7 +13,7 @@ export const getCountries = async () => {
                 error: 'Error Data!!!'
             }
         }
-       
+        
     } catch (error) {
         console.log('error')
     }
