@@ -1,7 +1,7 @@
 # React Country List And Search App
 
 ## Live Demo
-Project live demo link [Live](https://countries-new.vercel.app/)
+Project live demo link [Live](https://countries-new-list.vercel.app/)
 
 ## ✨ Features
 
