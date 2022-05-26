@@ -34,9 +34,11 @@ const TableCountries = ( { currentCountry, setCountriesPerPage, countriesPerPage
                                 <td> {item.alpha3Code} </td>
                                 <td>
                                     <img 
-                                        src={item.flags.png} 
-                                        className='ml-2' 
-                                        style={{width:'80px'}}
+                                        alt         =   'flag'
+                                        className   =   'ml-2' 
+                                        src         =   { item.flags.png } 
+                                        style       =   { {width:'80px'} }
+                                        
                                         />
                                 </td>          
                             </tr>
