@@ -57,33 +57,8 @@ const Search = ( { searchData, setData } ) => {
                                         }
                                         setData(newArr)                                    
                                     }
-                                } else {
-                                    //? Dizi içinde objeler [{},{},{}] ise tek tek obje elemanlarını gezer.
-                                    // console.log("Dizi+Objeler",item)
-                                    for (let i in item){
-                                        //console.log("NE",typeof(item[i]))
-                                        // if(item[i].toString().toLowerCase().includes(e.toString().toLowerCase())){
-                
-                                        //     if (!newArr.includes(item)){
-                                        //         newArr.push(item)
-                                        //     }
-                                        //     setData(newArr)                                    
-                                        // }
-                                    }
-                                }
+                                } 
                             })
-                        } else {
-                            //? sadece objeler
-                            //console.log("SAdece OBJE",value)
-                            // for(let i in value){
-                            //     if(value[i].toString().toLowerCase().includes(e.toString().toLowerCase())){
-        
-                            //         if (!newArr.includes(value)){
-                            //             newArr.push(value)
-                            //         }
-                            //         setData(newArr)                                    
-                            //     }
-                            // }
                         }
                     }
                 }
